@@ -1,0 +1,89 @@
+.App {
+  background-image: url("https://img.freepik.com/free-vector/realistic-news-studio-background_23-2149985600.jpg?w=1060&t=st=1688043078~exp=1688043678~hmac=a7ec46df87c45e45bc9f2ba780e5d4126671a46cb1999af415aaa57217e9bdcd");
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.quote-Area{
+
+  padding: 20px;
+  border-right: 1px solid white;
+  height: 170px;
+
+}
+.footer-Navigation{
+ 
+  border-right: 1px solid white;
+  height: 170px;
+}
+.contact-us{
+  padding-top: 10px;
+  padding:auto;
+
+}
+.quote-Area-sm{
+
+  padding: 20px;
+  border-bottom: 1px solid white;
+
+
+}
+.footer-Navigation-sm{
+   padding-top: 10px;
+  border-bottom: 1px solid white;
+ 
+}
+
+body {
+  font-family: 'PT Serif Caption';font-size: 22px;
+}
+.footer{
+  background-color: black;
+  color:aliceblue;
+
+
+  padding: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.btn-custom{
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+
+.btn-custom-home{
+  background-color: black;
+  color: white;
+  width: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btn-customPagination{
+  width: 40px;
+
+}
+.color-picker{
+  position: fixed;
+  right:35px;
+  bottom:35px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.styleImg{
+  width: 100%;
+  height: 300px;
+}
+.App-link {
+  color: #61dafb;
+}
+
