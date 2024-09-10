@@ -31,7 +31,6 @@ router.get("/fetchAllNews/:country/:Category/:pageNumber", async (req, res) => {
         .skip(req.params.pageNumber * 15)
         .limit(15);
         const totalNews= await News.countDocuments({})
-        console.log(totalNews)
       res.status(200).json({news, totalNews});
       return;
     } catch (err) {
@@ -48,7 +47,6 @@ router.get("/fetchAllNews/:country/:Category/:pageNumber", async (req, res) => {
       const totalNews= await News.countDocuments({
         Country: req.params.country
       })
-      console.log(totalNews)
     res.status(200).json({news, totalNews});
   } catch (err) {
     console.error(err.message);

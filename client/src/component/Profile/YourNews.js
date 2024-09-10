@@ -40,6 +40,7 @@ export default function YourNews({ index, len, data }) {
         <img
           className="w-1/3 h-full"
           src={data.news_Image.length ? data.news_Image[0] : newsImageAlt}
+          alt=""
         />
         <div className="w-2/3 h-full box-border px-2">
          
